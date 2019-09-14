@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/purple-green.css";
+html, body { height: 100%; }
+body { margin: 0; }
+@font-face {
+    font-family: Monda;
+    src: url(assets/fonts/Monda-Regular.ttf);
+  }
+  @font-face {
+    font-family: Monda-bold;
+    src: url(assets/fonts/Monda-Bold.ttf);
+  }
+
+  * {
+    font-family: 'Monda', sans-serif;
+  }
